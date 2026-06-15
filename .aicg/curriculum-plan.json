@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "role_id": "agentic-ai-developer",
+  "title": "Agentic AI Developer",
+  "level": 20,
+  "notes": "Entry rung of the Agentic track and on-ramp to agentic-ai-engineer (L30). Teaches the LLM-application fundamentals the higher agentic tracks assume as prerequisites (LLM APIs, prompt engineering, structured output, tool/function calling, retrieval basics, deploying a simple LLM app). Maps to the high-volume 'AI Engineer / LLM application developer' hiring title. Seeded from role research 2026-06-15; broaden on first nightly research cycle.",
+  "modules": [
+    {
+      "id": "mod-101-llm-fundamentals",
+      "title": "LLM Fundamentals for Application Developers",
+      "hours": 10,
+      "objectives": [
+        "Call LLM APIs and reason about tokens, context windows, temperature, and model selection",
+        "Understand chat/messages format, system vs. user/assistant roles, and streaming",
+        "Estimate cost and latency of LLM calls",
+        "Handle API errors, rate limits, and retries robustly"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "first-llm-api-calls", "hours": 2},
+        {"id": "exercise-02", "slug": "tokens-context-cost", "hours": 2},
+        {"id": "exercise-03", "slug": "streaming-and-errors", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-102-prompt-engineering",
+      "title": "Prompt Engineering & Structured Output",
+      "hours": 10,
+      "objectives": [
+        "Apply core prompting techniques (instructions, few-shot, role, decomposition)",
+        "Get reliable structured output (JSON / schema-constrained) from models",
+        "Validate and parse model output at the application boundary",
+        "Iterate on prompts with simple evals"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "prompt-patterns", "hours": 2},
+        {"id": "exercise-02", "slug": "structured-json-output", "hours": 3},
+        {"id": "exercise-03", "slug": "output-validation", "hours": 2}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-103-tool-and-function-calling",
+      "title": "Tool & Function Calling",
+      "hours": 10,
+      "objectives": [
+        "Define tools/functions and let the model choose and call them",
+        "Wire Python functions as tools and handle the call/result loop",
+        "Reason about when a tool call is appropriate vs. plain generation",
+        "Handle tool errors and malformed arguments safely"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "first-function-calling", "hours": 3},
+        {"id": "exercise-02", "slug": "multi-tool-app", "hours": 3},
+        {"id": "exercise-03", "slug": "tool-error-handling", "hours": 2}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-104-retrieval-basics",
+      "title": "Retrieval Basics (Embeddings & Simple RAG)",
+      "hours": 10,
+      "objectives": [
+        "Generate embeddings and run similarity search",
+        "Build a simple retrieval-augmented generation pipeline",
+        "Chunk and index documents for retrieval",
+        "Evaluate retrieval quality at a basic level"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "embeddings-similarity", "hours": 2},
+        {"id": "exercise-02", "slug": "simple-rag-pipeline", "hours": 3},
+        {"id": "exercise-03", "slug": "chunking-and-indexing", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-105-first-agent",
+      "title": "Your First Agent: The Reason-Act Loop",
+      "hours": 10,
+      "objectives": [
+        "Understand and implement a basic ReAct (Thought/Action/Observation) loop",
+        "Combine tools + retrieval into a single simple agent",
+        "Add basic memory across turns",
+        "Recognize the limits of a single agent (handoff to the Engineer track)"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "react-loop-intro", "hours": 3},
+        {"id": "exercise-02", "slug": "tool-using-agent", "hours": 3},
+        {"id": "exercise-03", "slug": "basic-conversation-memory", "hours": 2}
+      ],
+      "labs": [],
+      "quizzes": 1
+    },
+    {
+      "id": "mod-106-llm-app-deployment",
+      "title": "Shipping an LLM Application",
+      "hours": 10,
+      "objectives": [
+        "Wrap an LLM app behind a simple API (FastAPI) with input validation",
+        "Manage API keys/secrets via environment variables",
+        "Add basic logging and a cost/usage guardrail",
+        "Containerize and run the app locally"
+      ],
+      "exercises": [
+        {"id": "exercise-01", "slug": "fastapi-llm-endpoint", "hours": 3},
+        {"id": "exercise-02", "slug": "secrets-and-config", "hours": 2},
+        {"id": "exercise-03", "slug": "logging-and-usage-guardrail", "hours": 3}
+      ],
+      "labs": [],
+      "quizzes": 1
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-101-llm-powered-app",
+      "title": "Capstone: Ship an LLM-Powered Application",
+      "hours": 18,
+      "description": "Build and deploy a small LLM-powered application (e.g., a domain assistant or document Q&A) combining prompting, structured output, tool calling, and simple RAG behind a validated API with secrets management and a usage guardrail."
+    },
+    {
+      "id": "project-102-tool-using-agent",
+      "title": "A Simple Tool-Using Agent",
+      "hours": 12,
+      "description": "Build a single agent with a ReAct loop, 2-3 tools, retrieval, and basic conversation memory. Document where it breaks down — the bridge into the Agentic AI Engineer track."
+    }
+  ]
+}

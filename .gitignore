@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+# AICG runner state — never commit.
+.aicg/
