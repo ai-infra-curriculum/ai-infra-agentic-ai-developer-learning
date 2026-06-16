@@ -19,3 +19,9 @@ ai-infra-agentic-ai-developer-learning/
 ## Paired Solutions Repo
 
 [`ai-infra-agentic-ai-developer-solutions`](https://github.com/ai-infra-curriculum/ai-infra-agentic-ai-developer-solutions) carries the reference implementations.
+
+
+---
+
+<!-- aicg:maintained-by -->
+Maintained by [VeriSwarm.ai](https://veriswarm.ai)
