@@ -1,7 +1,7 @@
 # AI Infrastructure Agentic AI Developer — Learning Repository
 
 <!-- aicg:site-banner -->
-> 🎓 Part of the **free, open-source AI Infrastructure Curriculum**. For live, instructor-led **[cohorts](https://ai-infra-curriculum.github.io/junior.html)** and **[team programs](https://ai-infra-curriculum.github.io/teams.html)**, visit **[ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/)**.
+> 🎓 Part of the free, open-source **AI Career Curriculum** ecosystem — [Infrastructure](https://github.com/ai-infra-curriculum) · [ML Engineering](https://github.com/ml-engineering-curriculum) · [AI Engineering](https://github.com/ai-engineering-curriculum) · [Governance](https://github.com/ai-governance-curriculum). Live cohorts &amp; team programs: **[ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/)**.
 <!-- /aicg:site-banner -->
 
 > **Status:** ✅ Curriculum authored — 6 modules with lecture chapters and hands-on exercises, plus 2 capstone projects. Quizzes and labs are scaffolded and fill in on subsequent content cycles. AI-assisted content is under ongoing human review.
