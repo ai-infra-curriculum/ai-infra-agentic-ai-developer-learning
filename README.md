@@ -1,4 +1,4 @@
-# AI Infrastructure Agentic AI Developer — Learning Repository
+# AI Engineering · Agentic AI Developer — Learning Repository
 
 <!-- aicg:site-banner -->
 > 🎓 Part of the free, open-source **AI Career Curriculum** ecosystem — [Infrastructure](https://github.com/ai-infra-curriculum) · [ML Engineering](https://github.com/ml-engineering-curriculum) · [AI Engineering](https://github.com/ai-engineering-curriculum) · [Governance](https://github.com/ai-governance-curriculum). Live cohorts &amp; team programs: **[ai-infra-curriculum.github.io](https://ai-infra-curriculum.github.io/)**.
